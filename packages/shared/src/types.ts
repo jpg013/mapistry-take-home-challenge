@@ -18,3 +18,12 @@ export type GameStatus = {
 };
 
 export type WinnerKey = keyof typeof Winner;
+
+export type Justin = {
+  name: string;
+}
+
+export type PlayerMove = {
+  position: number;
+  marker: Marker;
+};

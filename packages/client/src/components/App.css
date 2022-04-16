@@ -1,0 +1,19 @@
+:root {
+  --primary-action: #A5E6BA;
+  --secondary-action: #b7ebc8;
+}
+
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1B1D1E;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}

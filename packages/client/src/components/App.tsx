@@ -1,7 +1,9 @@
 import '../styles/reset.css';
+import './App.css';
+import { Game } from './Game'
 
 export const App = () => (
-  <main>
-    <div>FIXME: add your solution here!</div>
+  <main className="app">
+    <Game />
   </main>
 );

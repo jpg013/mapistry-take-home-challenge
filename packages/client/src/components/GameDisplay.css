@@ -1,0 +1,38 @@
+.game-display {
+  display: flex;
+  margin-top: 50px;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center; 
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+.game-display-label {
+  font-size: 22px;
+  font-weight: 500;
+  color: inherit;
+  animation: appear 500ms cubic-bezier(0.5,1.8,0.1,1.1);
+}
+
+.game-display-label > .btn {
+  border: none;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-action);
+  display: inline-block;
+}
+
+.game-display-label > .btn:hover {
+  color: var(--secondary-action);
+}
